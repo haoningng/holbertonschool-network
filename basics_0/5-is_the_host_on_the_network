@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Usage: 5-is_the_host_on_the_network {IP_ADDRESS}
+for arg in $@; do ping -c 5 "$arg"; done
